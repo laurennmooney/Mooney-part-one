@@ -1,0 +1,113 @@
+html {
+    font-family: "Fira Sans";
+    background-color: #F0ECEE;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+em {
+    font-style: normal;
+    color: #FF4850;
+}
+
+.nav ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px;
+    color: #88898B;
+}
+
+a:hover {
+    color: #FF4850;
+}
+
+button {
+    background-color: #FF4850;
+    border: none;
+    font-family: "Fira Sans";
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #F0ECEE;
+}
+
+button:hover {
+    background-color: #CCC;
+}
+
+.main h2 {
+    font-size: 38px;
+    line-height: 1.5;
+    font-weight: 600px;
+}
+
+.main p {
+    color: #88898B;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+
+    html {
+        width: 100%;
+        height: 100%;
+        font-family: "Fira Sans";
+        background-color: #F0ECEE;
+        background-image: url('../../Mooney-part-one/css/bulldog.jpg');
+        background-position: fixed;
+        background-size: cover;
+    }
+
+    body {
+        margin: 10px 60px;
+    }
+
+    .header {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        margin: 20px 0;
+    }
+
+    .adopt {
+        flex: 3;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    button {
+        width: auto;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    .contact {
+        margin-left: 10px;
+    }
+
+    .main {
+        padding-top: 120px;
+        width: 40%;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+
+    .findout {
+        padding: 10px 70px;
+    }
+}
