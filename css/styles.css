@@ -63,7 +63,7 @@ button:hover {
         height: 100%;
         font-family: "Fira Sans";
         background-color: #F0ECEE;
-        background-image: url('../../Mooney-part-one/css/bulldog.jpg');
+        background-image: url('../../../css/bulldog.jpg');
         background-position: fixed;
         background-size: cover;
     }
